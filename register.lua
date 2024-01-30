@@ -2,7 +2,10 @@ local players = game:GetService('Players')
 local player = players.LocalPlayer
 
 local pase = false
-local usersRegistrados = {'Tech_Sorcerer', 'Demonic_Malware'}
+local usersRegistrados = {'Tech_Sorcerer',
+'Demonic_Malware',
+'R4T4TOPP0'
+}
 
 local function validation()
     for _, name in pairs(usersRegistrados) do
@@ -11,6 +14,8 @@ local function validation()
         end
     end
 end
+
+validation()
 
 while not pase do
     validation()
