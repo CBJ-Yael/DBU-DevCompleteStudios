@@ -4,7 +4,8 @@ local player = players.LocalPlayer
 local pase = false
 local usersRegistrados = {'Tech_Sorcerer',
 'Demonic_Malware',
-'R4T4TOPP0'
+'R4T4TOPP0',
+'Azeldex7w7'
 }
 
 local function validation()
